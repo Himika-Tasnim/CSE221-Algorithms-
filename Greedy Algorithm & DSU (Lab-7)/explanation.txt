@@ -1,0 +1,13 @@
+Task-1:
+1.Sorted in ascending order of time.
+2.Assigned first work.
+3.Checked if the end previously assigned work <= start time of new work. If true then assigned the work.
+4.repeated the process
+
+Task-2:
+1. Same as Task-1. But before assigning any work checked whose (new start-prev end) is minimum. Assigned the work to that person.
+
+Task-3:
+1. In make set,every vertex is its own parent. Kept track of the size so that I can connect small set with large set.
+2. In find parent, I found the parent of a vertex. To decrease time complexity, changed the parent reccursively. 
+3. In union set, I a conected small set with a large set if their parent are not same. 

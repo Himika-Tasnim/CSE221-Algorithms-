@@ -1,0 +1,16 @@
+Task-1:
+1. At first cosidered (0,source node) as the first element of heap.
+2. Loop till there is at least one element in the heap. 
+3. In each iteration poped element of heap is the source & then called dijkstra function.
+4. In dijksta function checked if we can find a distance that is less than the previously assigned distance of that node. 
+5. printed -1 if unreachable.
+
+Task-2:
+1. Implemented dijkstra twice and found two paths. One for Alice and another for Bob.
+2. if the max(time of reaching a node by bob,alice) is less than time, then changed the value of time. 
+3. In this way found the minimum time and expected node.
+4. If we cannot go to any place from the source node then its Impossible to find the output.
+
+Task-3:
+1. Same as task 1. But instead of adding the danger of the source , took the max of darnger(source, current node)
+

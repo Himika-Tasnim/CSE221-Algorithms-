@@ -1,0 +1,19 @@
+Task-1a:
+1. checked if there is a cycle
+2. if no cycle, DFS. stored elements while backtraking.
+3. repeated this untill the whole graph is travarsed. 
+4. reversed the list
+
+Task-1b:
+1. found a list of in degrees of all vertex
+2. Pushed those nodes to a queue which has in degree=0. Implemented bfs travarsal from first elem of queue. decremented the in degrees of its children.
+3. repeated the process
+4. if the length of resultant array < vertexs. then there is a cycle.
+
+Task-2:
+same as task 1b. just sorted the queue after each iteration. 
+
+Task-3:
+1. Impelemented BFS and got a list.
+2. inversed the graph
+3. Impelemented BFS on the inverted graph following the order of previous list. After each iteraion got a strongly connected component.

@@ -1,0 +1,25 @@
+1a:
+A nested loop was run to find the if sum of 2 values from the list can be equal to s.
+Time complexity is O(n^2)
+
+1b:
+To make it more efficient, at first I sorted the array using merge sort which has time cmplexity of O(nlogn). 
+Then a loop was run using 2 pointers(start,end) till start<end. If sum>s then end pointer was shifted to left. If sum<s then starting pointer was shifted to right. 
+In this way we got the desired values.
+By running another loop on the original array, I found the index of the resired value.
+Time complexity of the whole procedure is O(nlogn)
+
+2a:
+To find the dorted array at first I combined to arrays and then performed merge sort alogorithom to sort the array. The time complexity of this code is O(nlogn).
+
+2b:
+As 2 arrays were already sorted I just used the merge step of merge sort to combile the arrays. The time complexity of this code is O(n).
+
+3:
+Here, merge sort algorithm is used. It is a divide and conquer algorithm. 
+Here, an array is divided in two parts first untill the length of the array becomes 1. 
+Then we sort the 2 arrays and merge them toghether. 
+
+4:
+In this code I used the concept of merge sort but rather then sorting I tried to find the maximum from both arrays & compared the maximums. The complexity of my code is O(logn)
+

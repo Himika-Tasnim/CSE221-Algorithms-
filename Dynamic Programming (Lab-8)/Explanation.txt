@@ -1,0 +1,10 @@
+Task-1:
+1. Used the concept of DSU for avoiding cycle
+2. Used heapq to select lowest possible weight
+
+Task-2:
+Used lst for memoization. While doing recursion used value from lst.
+
+Task-3:
+1. If column no is less than the selected coin, copied from previous row.
+2. Otherwise minimum of [row-1][column]>row[column-coin] will be the value of [row][column]

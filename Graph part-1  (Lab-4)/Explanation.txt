@@ -1,0 +1,28 @@
+Task-1a:
+Created a 2D list, put 1 where there is an edge between two vertex.
+
+Task1-b:
+Created a 2D list, in every index there is a list of the (vertexes,weigth) connected to it.
+
+Task-2:
+Visited the source
+Inserted its children(if not visited) in the queue.
+Poped the source.
+Again did the same process with the next element of the queue.
+
+Task-3
+Visited the source.
+Visited one of its children(if not visited).
+Again did the same process with the children.
+If there is nothing to visit came back to its parent.
+
+Taks-4:
+To find the cycle ,I tried to find if there is a backage using DFS travarsal. If a vertex can be visited from its children then there is a backage. 
+
+Task-5:
+To find the shortest path, I kept track of the parent of every vertex using BFS travarsal. If I found the desired vertex,loop breaks.
+Then I found the shortest path to reach that vertex from the list of parents.
+
+Task-6
+Created adjacency list from the inputs where the number of vertex is (row*col). ,"#" means there is no edge,"." means there is an edge.
+Using the adjacency list found the number of Diamonds in the path doing bfs travarsal. 
